@@ -3,7 +3,9 @@
 
 ## 环境
 - 运行环境为Windows
-- 安装Golang和Java运行环境
+- 编辑器为VSCode
+- 安装Golang，并设置GOPATH和GOROOT环境变量，添加到PATH路径中
+- 安装Java sdk，并设置JAVA_HOME，添加到PATH路径中
 - 安装proto、gogofaster、protoc-gen-grpc-java  
     - 把protoc和protoc-gen-grpc-java放到C:\Windows\System32\目录下
     - gogofaster.exe可放到GOPATH目录下
