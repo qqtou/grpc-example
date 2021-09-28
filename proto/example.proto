@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package="go/proto";
+option java_package="grpc.example.grpc";
+
+service Example{
+   rpc SayHello(HelloRequest) returns (HelloReplay);
+}
+
+message HelloRequest{
+	string name = 1;
+}
+
+message HelloReplay{
+	string message = 1;
+}
