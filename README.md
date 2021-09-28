@@ -1,4 +1,5 @@
-# grpc-example
+# grpc-example  
+示例为Golang和Java的GRPC接口互相调用示例
 
 ## 环境
 - 运行环境为Windows
